@@ -1,0 +1,11 @@
+#!/usr/bin/julia
+
+varsum = 0;
+
+array_length = 2**30;
+
+const x = rand(array_length);
+
+varsum = sum(x);
+
+println(varsum)
